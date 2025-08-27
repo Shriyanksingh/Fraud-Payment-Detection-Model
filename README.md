@@ -33,7 +33,7 @@ Data dictionary reference is included in **Data Dictionary.txt**.
 1. **Data Cleaning**
    - Checked and handled missing values
    - Analyzed outliers
-   - Checked for multicollinearity (correlation heatmap, VIF)
+   - Checked for multicollinearity(correlation heatmap, VIF)
 2. **Feature Engineering**
    - Dropped IDs (`nameOrig`, `nameDest`)
    - Encoded categorical variable `type`
@@ -43,7 +43,7 @@ Data dictionary reference is included in **Data Dictionary.txt**.
    - Gradient Boosting using XGBoost
    - Addressed class imbalance with `scale_pos_weight`
 4. **Model Evaluation**
-   - Classification Report (Precision, Recall, F1)
+   - Classification Report(Precision, Recall, F1)
    - Confusion Matrix
    - ROC-AUC and Precision-Recall AUC
 5. **Insights**
@@ -99,5 +99,5 @@ jupyter notebook Fraud_Detection_GradientBoosting.ipynb
 ---
 
 ## 📌 Author
-- **Your Name**  
+- **Shriyank Singh**  
 - Created as part of a fraud detection case study project.
