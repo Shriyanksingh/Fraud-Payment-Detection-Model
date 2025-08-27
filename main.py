@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report,confusion_matrix,roc_auc_score
 from xgboost import XGBClassifier
 
 #Data loading and cleaning
-df= pd.read_csv("Fraud1.csv")
+df= pd.read_csv("Dataset.csv")
 print("Dataset Shape:", df.shape)
 print("Missing values:\n",df.isnull().sum())
 df= df.drop(["nameOrig", "nameDest"], axis=1)
@@ -59,6 +59,7 @@ print("\nFeature importance:\n", importance)
 sns.barplot(x= "importance",y="feature", data= importance)
 plt.title("Feature importance from XGBoost")
 plt.show()
+
 
 
 
